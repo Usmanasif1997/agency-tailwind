@@ -6,7 +6,7 @@
     @apply text-4xl lg:text-5xl xl:text-6xl font-bold text-customdark max-w-xl;
 }
 .paragraph{
-    @apply text-lg lg:text-xl text-gray-500 max-w-xl mt-8;
+    @apply lg:text-lg text-gray-500 mt-8;
 }
 .image-responsive-lg{
     @apply h-64 sm:h-72 md:h-80 lg:h-96 xl:h-112 w-auto;
