@@ -21,6 +21,10 @@ module.exports = {
       current: 'currentColor',
       customdark: '#4d4d4d',
       customblue: '#0454a2',
+      facebook: '#1877F2',
+      twitter: '#1DA1F2',
+      linkedin: '#0077B5',
+      instagram: '#E4405F',
       
       black: colors.black,
       white: colors.white,
