@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/imagehover.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Agency Theme | Illustration Websites</title>
@@ -13,7 +15,7 @@
 <body style="font-family: 'Jost', sans-serif;">
 
 
-    <section class="py-32 bg-gray-50">
+    <section class="py-32 bg-gray-50 border">
         <div class="container mx-auto">
             <div class="flex flex-wrap items-center">
                 <div class="w-full md:w-1/2 p-4">
@@ -41,7 +43,7 @@
     </section>
     <section class="py-20">
         <div class="container mx-auto">
-            <div class="p-4 text-center max-w-5xl mx-auto">
+            <div class="p-4 text-center max-w-5xl mx-auto hidden">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-customdark">
                     Our goal is to <span class="text-customblue">make your life easier</span>
                 </h2>
@@ -49,40 +51,167 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptate at quisquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias atque officia amet?
                 </p>
             </div>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex flex-shrink">
+                    <div class="">
+                        <div>
+                            <svg class="devfont devfont-edit h-10 w-10 text-customblue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20h13"></path><path d="M4 20v-3L17 4l3 3L7 20H4z"></path><path d="M17 10l-3-3"></path></svg>
+                        </div>
+                        <h3 class="lg:text-lg font-semibold text-gray-600 mt-4">
+                            Modern and vibrant design
+                        </h3>
+                        <p class="text-sm lg:text-base text-gray-500 mt-2">
+                            Pixel perfect and fully responsive design as per latest web design trends.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex flex-shrink">
+                    <div class="">
+                        <div>
+                            <svg class="devfont devfont-time h-10 w-10 text-customblue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v5h4"></path><circle cx="12" cy="12" r="9"></circle></svg>
+                        </div>
+                        <h3 class="lg:text-lg font-semibold text-gray-600 mt-4">
+                            SEO and Speed optimization
+                        </h3>
+                        <p class="text-sm lg:text-base text-gray-500 mt-2">
+                            Best practice in design and coding to make the page load fast and SEO ready.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex flex-shrink">
+                    <div class="">
+                        <div>
+                            <svg class="devfont devfont-code-slash h-10 w-10 text-customblue" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8l-4 4 4 4"></path><path d="M17 8l4 4-4 4"></path><path d="M14 4l-4 16"></path></svg>
+                        </div>
+                        <h3 class="lg:text-lg font-semibold text-gray-600 mt-4">
+                            Highly professional coding standard
+                        </h3>
+                        <p class="text-sm lg:text-base text-gray-500 mt-2">
+                            Well commented and structured, easy to understand and customizable code.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex flex-shrink">
+                    <div class="">
+                        <div>
+                            <svg class="devfont devfont-file-text h-10 w-10 text-customblue" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V3h11l5 5v13H4z"></path><path d="M15 3v5h5"></path><path d="M9 8h1"></path><path d="M9 12h6"></path><path d="M9 16h6"></path></svg>
+                        </div>
+                        <h3 class="lg:text-lg font-semibold text-gray-600 mt-4">
+                            Documentation and Support
+                        </h3>
+                        <p class="text-sm lg:text-base text-gray-500 mt-2">
+                            Detailed and technical documentation as well as best rated professional support.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 bg-gray-50 border">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap items-center">
+                <div class="w-full md:w-1/2 p-4">
+                    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-customdark max-w-xl">
+                        Our job is to <span class="text-customblue">help our clients</span>
+                    </h2>
+                    <p class="paragraph max-w-xl">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus enim dolorum officia voluptate suscipit aliquid atque tempora commodi? Ipsum, mollitia!
+                    </p>
+                    <p class="paragraph max-w-xl">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et deserunt architecto alias? Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+                <div class="w-full md:w-1/2 p-4">
+                    <div class="flex justify-center">
+                        <img src="img/aboutus.png" class="image-responsive-lg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20">
+        <div class="container mx-auto">
+            <div class="p-4 text-center max-w-5xl mx-auto ">
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-customdark">
+                    Our <span class="text-customblue">Services</span>
+                </h2>
+                <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptate at quisquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias atque officia amet?
+                </p>
+            </div>
             <div class="flex flex-wrap justify-center">
-                <div class="w-1/4 p-4 flex flex-shrink">
-                    <div class="border-2 border-customblue p-6 rounded-lg group hover:bg-customblue transition duration-500 ease-in-out">
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex flex-shrink">
+                    <div class="border-2 border-customblue p-6 rounded-lg group hover:bg-customblue transition duration-500 ease-in-out transform hover:-translate-y-4">
                         <div>
-                            <svg class="w-10 h-10 text-customblue group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                            <svg class="devfont devfont-frame w-10 h-10 text-customblue group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"></path><path d="M4 17h16"></path><path d="M7 4v16"></path><path d="M17 4v16"></path></svg>
                         </div>
-                        <h3 class="text-lg lg:text-xl font-bold text-gray-600 mt-4 group-hover:text-white">
-                            Create Idea
+                        <h3 class="lg:text-lg font-semibold text-gray-600 mt-4 group-hover:text-white">
+                            UI/UX Design
                         </h3>
                         <p class="text-sm lg:text-base text-gray-500 mt-2 group-hover:text-gray-100">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quisquam, iste eum deleniti dolorum quidem.
                         </p>
                     </div>
                 </div>
-                <div class="w-1/4 p-4 flex flex-shrink">
-                    <div class="border-2 border-customblue p-6 rounded-lg group hover:bg-customblue transition duration-500 ease-in-out">
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex flex-shrink">
+                    <div class="border-2 border-customblue p-6 rounded-lg group hover:bg-customblue transition duration-500 ease-in-out transform hover:-translate-y-4">
                         <div>
-                            <svg class="w-10 h-10 text-customblue group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                            <svg class="devfont devfont-code-slash w-10 h-10 text-customblue group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8l-4 4 4 4"></path><path d="M17 8l4 4-4 4"></path><path d="M14 4l-4 16"></path></svg>
                         </div>
-                        <h3 class="text-lg lg:text-xl font-bold text-gray-600 mt-4 group-hover:text-white">
-                            Create Idea
+                        <h3 class="lg:text-lg font-semibold text-gray-600 mt-4 group-hover:text-white">
+                            Web Development
                         </h3>
                         <p class="text-sm lg:text-base text-gray-500 mt-2 group-hover:text-gray-100">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quisquam, iste eum deleniti dolorum quidem.
                         </p>
                     </div>
                 </div>
-                <div class="w-1/4 p-4 flex flex-shrink">
-                    <div class="border-2 border-customblue p-6 rounded-lg group hover:bg-customblue transition duration-500 ease-in-out">
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex flex-shrink">
+                    <div class="border-2 border-customblue p-6 rounded-lg group hover:bg-customblue transition duration-500 ease-in-out transform hover:-translate-y-4">
                         <div>
-                            <svg class="w-10 h-10 text-customblue group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                            <svg class="devfont devfont-smartphone w-10 h-10 text-customblue group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="3" width="12" height="18"></rect><path d="M12 18h.01"></path></svg>
                         </div>
-                        <h3 class="text-lg lg:text-xl font-bold text-gray-600 mt-4 group-hover:text-white">
-                            Create Idea
+                        <h3 class="lg:text-lg font-semibold text-gray-600 mt-4 group-hover:text-white">
+                            Mobile Development
+                        </h3>
+                        <p class="text-sm lg:text-base text-gray-500 mt-2 group-hover:text-gray-100">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quisquam, iste eum deleniti dolorum quidem.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex flex-shrink">
+                    <div class="border-2 border-customblue p-6 rounded-lg group hover:bg-customblue transition duration-500 ease-in-out transform hover:-translate-y-4">
+                        <div>
+                            <svg class="devfont devfont-computer w-10 h-10 text-customblue group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13"></rect><path d="M12 21v-4"></path><path d="M8 21h8"></path></svg>
+                        </div>
+                        <h3 class="lg:text-lg font-semibold text-gray-600 mt-4 group-hover:text-white">
+                            Software Development
+                        </h3>
+                        <p class="text-sm lg:text-base text-gray-500 mt-2 group-hover:text-gray-100">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quisquam, iste eum deleniti dolorum quidem.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex flex-shrink">
+                    <div class="border-2 border-customblue p-6 rounded-lg group hover:bg-customblue transition duration-500 ease-in-out transform hover:-translate-y-4">
+                        <div>
+                            <svg class="devfont devfont-speakerphone w-10 h-10 text-customblue group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8H3v6h9l6 5V4l-6 4z"></path><path d="M10 8v6"></path><path d="M7 14v6h3v-6"></path><path d="M18 14a3 3 0 1 0 0-6"></path></svg>
+                        </div>
+                        <h3 class="lg:text-lg font-semibold text-gray-600 mt-4 group-hover:text-white">
+                            Digital Marketing
+                        </h3>
+                        <p class="text-sm lg:text-base text-gray-500 mt-2 group-hover:text-gray-100">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quisquam, iste eum deleniti dolorum quidem.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex flex-shrink">
+                    <div class="border-2 border-customblue p-6 rounded-lg group hover:bg-customblue transition duration-500 ease-in-out transform hover:-translate-y-4">
+                        <div>
+                            <svg class="devfont devfont-pencil w-10 h-10 text-customblue group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20v-3L17 4l3 3L7 20H4z"></path><path d="M17 10l-3-3"></path></svg>
+                        </div>
+                        <h3 class="lg:text-lg font-semibold text-gray-600 mt-4 group-hover:text-white">
+                            Seo
                         </h3>
                         <p class="text-sm lg:text-base text-gray-500 mt-2 group-hover:text-gray-100">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quisquam, iste eum deleniti dolorum quidem.
@@ -92,6 +221,245 @@
             </div>
         </div>
     </section>
+    <section class="py-20 bg-gray-50 border">
+        <div class="container mx-auto">
+            <div class="p-4 text-center max-w-5xl mx-auto ">
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-customdark">
+                    Our <span class="text-customblue">Work</span>
+                </h2>
+                <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptate at quisquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias atque officia amet?
+                </p>
+            </div>
+            <div class="flex flex-wrap mt-12">
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+                    <figure class="imghvr-fade h-72 w-full rounded-lg">
+                        <img src="img/work1.jpeg" class="h-full w-full object-cover">
+                        <figcaption>
+                            // Hover Content
+                        </figcaption>
+                        <a data-fancybox="gallery" href="img/work1.jpeg"></a>
+                    </figure>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+                    <figure class="imghvr-fade h-72 w-full rounded-lg">
+                        <img src="img/work2.jpeg" class="h-full w-full object-cover">
+                        <figcaption>
+                            // Hover Content
+                        </figcaption>
+                        <a data-fancybox="gallery" href="img/work2.jpeg"></a>
+                    </figure>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+                    <figure class="imghvr-fade h-72 w-full rounded-lg">
+                        <img src="img/work3.jpeg" class="h-full w-full object-cover">
+                        <figcaption>
+                            // Hover Content
+                        </figcaption>
+                        <a data-fancybox="gallery" href="img/work3.jpeg"></a>
+                    </figure>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+                    <figure class="imghvr-fade h-72 w-full rounded-lg">
+                        <img src="img/work4.jpeg" class="h-full w-full object-cover">
+                        <figcaption>
+                            // Hover Content
+                        </figcaption>
+                        <a data-fancybox="gallery" href="img/work4.jpeg"></a>
+                    </figure>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+                    <figure class="imghvr-fade h-72 w-full rounded-lg">
+                        <img src="img/work5.jpeg" class="h-full w-full object-cover">
+                        <figcaption>
+                            // Hover Content
+                        </figcaption>
+                        <a data-fancybox="gallery" href="img/work5.jpeg"></a>
+                    </figure>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+                    <figure class="imghvr-fade h-72 w-full rounded-lg">
+                        <img src="img/work6.jpeg" class="h-full w-full object-cover">
+                        <figcaption>
+                            // Hover Content
+                        </figcaption>
+                        <a data-fancybox="gallery" href="img/work6.jpeg"></a>
+                    </figure>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+                    <figure class="imghvr-fade h-72 w-full rounded-lg">
+                        <img src="img/work7.jpeg" class="h-full w-full object-cover">
+                        <figcaption>
+                            // Hover Content
+                        </figcaption>
+                        <a data-fancybox="gallery" href="img/work7.jpeg"></a>
+                    </figure>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+                    <figure class="imghvr-fade h-72 w-full rounded-lg">
+                        <img src="img/work8.jpg" class="h-full w-full object-cover">
+                        <figcaption>
+                            // Hover Content
+                        </figcaption>
+                        <a data-fancybox="gallery" href="img/work8.jpg"></a>
+                    </figure>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+                    <figure class="imghvr-fade h-72 w-full rounded-lg">
+                        <img src="img/work9.jpeg" class="h-full w-full object-cover">
+                        <figcaption>
+                            // Hover Content
+                        </figcaption>
+                        <a data-fancybox="gallery" href="img/work9.jpeg"></a>
+                    </figure>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+                    <figure class="imghvr-fade h-72 w-full rounded-lg">
+                        <img src="img/work10.jpeg" class="h-full w-full object-cover">
+                        <figcaption>
+                            // Hover Content
+                        </figcaption>
+                        <a data-fancybox="gallery" href="img/work10.jpeg"></a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20">
+        <div class="container mx-auto">
+            <div class="p-4 text-center max-w-5xl mx-auto ">
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-customdark">
+                    We've worked with <span class="text-customblue">all sorts of clients </span>
+                </h2>
+                <p class="paragraph">
+                    We're proud to still be working with many of the same prople that hired us in our early days.
+                </p>
+            </div>
+            <div class="flex flex-wrap mt-12 justify-center">
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex flex-shrink">
+                    <div class="border bg-white rounded-t-2xl flex flex-col">
+                        <p class="text-gray-500 p-8 flex-1">
+                           " Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel reprehenderit enim nostrum delectus sint cum sunt dolore nesciunt et possimus."
+                        </p>
+                        <div class="bg-customblue mt-12 p-4 rounded-b-2xl">
+                            <div class="flex justify-center -mt-14">
+                                <img src="https://images.pexels.com/photos/4350057/pexels-photo-4350057.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="h-20 w-20 object-cover rounded-full" alt="">
+                            </div>
+                            <div class="text-center mt-4 space-y-1">
+                                <div class="text-sm font-semibold text-white">
+                                    STELLA SMITH
+                                </div>
+                                <div class="text-sm font-medium text-gray-100">
+                                    Product Manager
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex flex-shrink">
+                    <div class="border bg-white rounded-t-2xl flex flex-col">
+                        <p class="text-gray-500 p-8 flex-1">
+                           " Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel reprehenderit enim nostrum delectus sint cum sunt dolore nesciunt et possimus."
+                        </p>
+                        <div class="bg-customblue mt-12 p-4 rounded-b-2xl">
+                            <div class="flex justify-center -mt-14">
+                                <img src="https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="h-20 w-20 object-cover rounded-full" alt="">
+                            </div>
+                            <div class="text-center mt-4 space-y-1">
+                                <div class="text-sm font-semibold text-white">
+                                    John Steve
+                                </div>
+                                <div class="text-sm font-medium text-gray-100">
+                                    Web Developer
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex flex-shrink">
+                    <div class="border bg-white rounded-t-2xl flex flex-col">
+                        <p class="text-gray-500 p-8 flex-1">
+                           " Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel reprehenderit enim nostrum delectus sint cum sunt dolore nesciunt et possimus."
+                        </p>
+                        <div class="bg-customblue mt-12 p-4 rounded-b-2xl">
+                            <div class="flex justify-center -mt-14">
+                                <img src="https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="h-20 w-20 object-cover rounded-full" alt="">
+                            </div>
+                            <div class="text-center mt-4 space-y-1">
+                                <div class="text-sm font-semibold text-white">
+                                    Lisa Andrew
+                                </div>
+                                <div class="text-sm font-medium text-gray-100">
+                                    Product Manager
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <footer class="py-20">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap">
+                <div class="w-1/3 p-4">
+                    <div class="border rounded-xl p-6">
+                        <div class="">
+                            <h3 class="lg:text-lg font-semibold text-gray-600 mt-4 max-w-xl">
+                                Contact Information
+                            </h3>
+                            <p class="text-sm lg:text-base text-gray-500 mt-2 max-w-xl">
+                                Fill up the form and our team will get back to you within 24 hours
+                            </p>
+                        </div>
+                        <div>
+                            <ul class="space-y-1">
+                                <li class="flex">
+                                    <div class="mr-2">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                                    </div>
+                                    <div>
+                                        <a href="tel:+92 323 4080400">
+                                            +92 323 4080400
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="flex">
+                                    <div class="mr-2">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                                    </div>
+                                    <div>
+                                        <a href="mailto:info@illustrationwebsites.com">
+                                            info@illustrationwebsites.com
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="flex">
+                                    <div class="mr-2">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                    </div>
+                                    <div>
+                                        Lahore, Pakistan
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="rounded-lg border p-2">
+                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 
 </body>
