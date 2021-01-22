@@ -14,3 +14,10 @@
 .btn-dark{
     @apply focus:outline-none px-8 py-3 w-full sm:w-auto border rounded-lg bg-customblue text-white text-lg font-medium hover:bg-opacity-90 focus:bg-opacity-90 focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-customblue;
 }
+.nav-lg-item{
+    @apply text-sm font-medium text-gray-500 hover:text-customblue focus:outline-none transition duration-150 ease-in-out;
+  }
+.nav-sm-item{
+    @apply my-1 block px-3 py-2 rounded-md text-sm font-medium text-gray-500 hover:text-customblue hover:bg-gray-100 focus:outline-none focus:text-customblue focus:bg-gray-200 transition duration-150 ease-in-out;
+  }
+  
