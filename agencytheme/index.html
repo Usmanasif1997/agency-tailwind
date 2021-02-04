@@ -3,22 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- Basic Seo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative Agency with html5,css3,jquery,alpinejs & tailwindcss ">
+    <meta name="keywords" content="HTML5,CSS3,JQUERY,tailwindcss, Web Design,Web Development,Responsive Website, Creative Website, Creative Agency">
+    <title>Creative Agency Design 1 | Illustration Websites</title>
+    <!-- Tailwind CSS -->
     <link rel="stylesheet" href="css/tailwind.css">
+    <!-- Image Hover CSS -->
     <link rel="stylesheet" href="css/imagehover.min.css">
+    <!-- Favicon Icon -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- Fancybox CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <title>Agency Theme | Illustration Websites</title>
 </head>
 
 <body style="font-family: 'Jost', sans-serif;">
 
 
 
+    
+    <!-- Navigation -->
     <header x-data="{ isOpen: false , atTop: true }">
         <div class="fixed z-20 w-full transition ease-linear duration-300 py-2"
             :class="{ 'bg-white shadow-lg border-b' : !atTop }"
@@ -30,7 +40,7 @@
                             <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                                 <div class="flex items-center justify-between w-full lg:w-auto">
                                     <div>
-                                        <img class="h-8 sm:h-10 w-auto" src="img/logo.png" alt="Logo of Nemt Platform">
+                                        <img class="h-8 sm:h-10 w-auto" src="img/logo.png" loading="lazy" alt="Logo of Illustration Websites">
                                     </div>
                                     <div class="-mr-2 flex items-center lg:hidden">
                                         <button @click="isOpen = !isOpen" @keydown.escape="isOpen = false" type="button"
@@ -73,7 +83,7 @@
                             <div class="rounded-lg bg-white shadow-xs overflow-hidden">
                                 <div class="px-5 pt-4 flex items-center justify-between">
                                     <div>
-                                        <img class="h-8 w-auto" src="img/logo.png" alt="Logo of Nemt Platform">
+                                        <img class="h-8 w-auto" src="img/logo.png" loading="lazy" alt="Illustration Websites">
                                     </div>
                                     <div class="-mr-2">
                                         <button @click="isOpen = !isOpen" type="button"
@@ -100,7 +110,8 @@
             </div>
         </div>
     </header>
-
+    <!-- Navigation END -->
+    <!-- Hero Section -->
     <section class="py-32 bg-cover bg-no-repeat" id="home" style="background-image: url('img/bg.png');">
         <div class="container mx-auto">
             <div class="flex flex-wrap items-center">
@@ -113,7 +124,7 @@
                         itaque labore laborum assumenda necessitatibus vitae?
                     </p>
                     <div class="mt-8">
-                        <a href="">
+                        <a href="#contactus">
                             <button class="btn-dark">
                                 Get Started
                             </button>
@@ -7114,6 +7125,8 @@
             </div>
         </div>
     </section>
+    <!-- Hero Section END -->
+    <!-- About Us -->
     <section class="py-20" id="aboutus">
         <div class="container mx-auto">
             <div class="flex flex-wrap items-center">
@@ -7865,6 +7878,8 @@
             </div>
         </div>
     </section>
+    <!-- About Us End -->
+    <!-- Services -->
     <section class="py-20 bg-gray-50 border" id="services">
         <div class="container mx-auto">
             <div class="p-4 text-center max-w-5xl mx-auto ">
@@ -8009,6 +8024,8 @@
             </div>
         </div>
     </section>
+    <!-- Services END -->
+    <!-- Our Work -->
     <section class="py-20" id="ourwork">
         <div class="container mx-auto">
             <div class="p-4 text-center max-w-5xl mx-auto ">
@@ -8023,7 +8040,7 @@
             <div class="flex flex-wrap mt-12">
                 <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <figure class="imghvr-fade h-72 w-full rounded-lg">
-                        <img src="img/work1.jpeg" class="h-full w-full object-cover">
+                        <img src="img/work1.jpeg" class="h-full w-full object-cover" alt="portfolio" loading="lazy">
                         <figcaption>
                             // Hover Content
                         </figcaption>
@@ -8032,7 +8049,7 @@
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <figure class="imghvr-fade h-72 w-full rounded-lg">
-                        <img src="img/work2.jpeg" class="h-full w-full object-cover">
+                        <img src="img/work2.jpeg" class="h-full w-full object-cover" alt="portfolio" loading="lazy">
                         <figcaption>
                             // Hover Content
                         </figcaption>
@@ -8041,7 +8058,7 @@
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <figure class="imghvr-fade h-72 w-full rounded-lg">
-                        <img src="img/work3.jpeg" class="h-full w-full object-cover">
+                        <img src="img/work3.jpeg" class="h-full w-full object-cover" alt="portfolio" loading="lazy">
                         <figcaption>
                             // Hover Content
                         </figcaption>
@@ -8050,7 +8067,7 @@
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <figure class="imghvr-fade h-72 w-full rounded-lg">
-                        <img src="img/work4.jpeg" class="h-full w-full object-cover">
+                        <img src="img/work4.jpeg" class="h-full w-full object-cover" alt="portfolio" loading="lazy">
                         <figcaption>
                             // Hover Content
                         </figcaption>
@@ -8059,7 +8076,7 @@
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <figure class="imghvr-fade h-72 w-full rounded-lg">
-                        <img src="img/work5.jpeg" class="h-full w-full object-cover">
+                        <img src="img/work5.jpeg" class="h-full w-full object-cover" alt="portfolio" loading="lazy">
                         <figcaption>
                             // Hover Content
                         </figcaption>
@@ -8068,7 +8085,7 @@
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <figure class="imghvr-fade h-72 w-full rounded-lg">
-                        <img src="img/work6.jpeg" class="h-full w-full object-cover">
+                        <img src="img/work6.jpeg" class="h-full w-full object-cover" alt="portfolio" loading="lazy">
                         <figcaption>
                             // Hover Content
                         </figcaption>
@@ -8077,7 +8094,7 @@
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <figure class="imghvr-fade h-72 w-full rounded-lg">
-                        <img src="img/work7.jpeg" class="h-full w-full object-cover">
+                        <img src="img/work7.jpeg" class="h-full w-full object-cover" alt="portfolio" loading="lazy">
                         <figcaption>
                             // Hover Content
                         </figcaption>
@@ -8086,7 +8103,7 @@
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <figure class="imghvr-fade h-72 w-full rounded-lg">
-                        <img src="img/work8.jpg" class="h-full w-full object-cover">
+                        <img src="img/work8.jpg" class="h-full w-full object-cover" alt="portfolio" loading="lazy">
                         <figcaption>
                             // Hover Content
                         </figcaption>
@@ -8095,7 +8112,7 @@
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <figure class="imghvr-fade h-72 w-full rounded-lg">
-                        <img src="img/work9.jpeg" class="h-full w-full object-cover">
+                        <img src="img/work9.jpeg" class="h-full w-full object-cover" alt="portfolio" loading="lazy">
                         <figcaption>
                             // Hover Content
                         </figcaption>
@@ -8104,7 +8121,7 @@
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                     <figure class="imghvr-fade h-72 w-full rounded-lg">
-                        <img src="img/work10.jpeg" class="h-full w-full object-cover">
+                        <img src="img/work10.jpeg" class="h-full w-full object-cover" alt="portfolio" loading="lazy">
                         <figcaption>
                             // Hover Content
                         </figcaption>
@@ -8114,6 +8131,8 @@
             </div>
         </div>
     </section>
+    <!-- Our Work End -->
+    <!-- Testimonials -->
     <section class="py-20 bg-gray-50 border">
         <div class="container mx-auto">
             <div class="p-4 text-center max-w-5xl mx-auto ">
@@ -8134,7 +8153,7 @@
                         <div class="bg-customblue mt-12 p-4 rounded-b-2xl">
                             <div class="flex justify-center -mt-14">
                                 <img src="https://images.pexels.com/photos/4350057/pexels-photo-4350057.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                                    class="h-20 w-20 object-cover rounded-full" alt="">
+                                    class="h-20 w-20 object-cover rounded-full" alt="Testimonails Image" loading="lazy">
                             </div>
                             <div class="text-center mt-4 space-y-1">
                                 <div class="text-sm font-semibold text-white">
@@ -8156,7 +8175,7 @@
                         <div class="bg-customblue mt-12 p-4 rounded-b-2xl">
                             <div class="flex justify-center -mt-14">
                                 <img src="https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                                    class="h-20 w-20 object-cover rounded-full" alt="">
+                                    class="h-20 w-20 object-cover rounded-full" alt="Testimonails Image" loading="lazy">
                             </div>
                             <div class="text-center mt-4 space-y-1">
                                 <div class="text-sm font-semibold text-white">
@@ -8178,7 +8197,7 @@
                         <div class="bg-customblue mt-12 p-4 rounded-b-2xl">
                             <div class="flex justify-center -mt-14">
                                 <img src="https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                                    class="h-20 w-20 object-cover rounded-full" alt="">
+                                    class="h-20 w-20 object-cover rounded-full" alt="Testimonails Image" loading="lazy">
                             </div>
                             <div class="text-center mt-4 space-y-1">
                                 <div class="text-sm font-semibold text-white">
@@ -8195,6 +8214,8 @@
             </div>
         </div>
     </section>
+    <!-- Testimonials END -->
+    <!-- Contact -->
     <section class="pt-20" id="contactus">
         <div class="container mx-auto">
             <div class="p-4 text-center max-w-5xl mx-auto ">
@@ -8353,9 +8374,11 @@
             </div>
         </div>
     </section>
+    <!-- Contact END -->
+    <!-- Back-to-top -->
     <section x-data="{ atTop: true }">
         <a href="#home"
-            class="w-12 h-12 fixed bottom-0 z-50 right-0 m-8 focus:outline-none rounded-lg flex items-center justify-center transition ease-linear duration-300 bg-white shadow-md border"
+            class="w-12 h-12 fixed bottom-0 z-100 right-0 m-8 focus:outline-none rounded-lg flex items-center justify-center transition ease-linear duration-300 bg-white shadow-md border"
             :class="{ 'bg-white shadow-md border' : !atTop }"
             @scroll.window="atTop = (window.pageYOffset > 40) ? false : true">
             <svg class="h-6 w-6 fill-current text-transparent ease-linear duration-300 text-customblue"
@@ -8368,6 +8391,8 @@
             </svg>
         </a>
     </section>
+    <!-- Back-to-top End-->
+    <!-- Footer -->
     <footer class="border bg-gray-50 p-6">
         <div class="container mx-auto">
             <div class="text-center">
@@ -8378,12 +8403,17 @@
             </div>
         </div>
     </footer>
+    <!-- Footer End -->
 
 
 
+    <!-- jQuery -->
     <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Fancy box Js -->
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!-- Alpine Js -->
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
+    <!-- Custom Js -->
     <script src="js/script.js"></script>
 
 </body>
