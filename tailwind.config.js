@@ -3,8 +3,9 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   purge: {
     enabled:true,
-    content: ['agencytheme/**/*.html'],
+    content: ['src/**/*.html'],
     // npx tailwindcss-cli@latest build src/style.css -o agencytheme/css/tailwind.css
+    // npx tailwindcss-cli@latest build src/css/style.css -o src/css/compiled/tailwind.css
   },
   presets: [],
   darkMode: false, // or 'media' or 'class'
